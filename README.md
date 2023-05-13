@@ -23,7 +23,7 @@ The project involves several steps in order to achieve its objective:
 
 **Tablature Generation:** Musical notes are identified based on frequency using techniques like Constant-Q Transform. The benefits of using this transform over the Fourier transform are discussed in the literature review section. The identified notes are used to generate tablature for the requested song.
 
-**Guitar Playing:** The generated tablature is used to simulate guitar playing and produce the requested song. Techniques like Hybrid Transformer Demucs, a neural network architecture, are employed for accurate simulation of guitar techniques and sounds.
+**Guitar Playing:** The generated tablature is used to simulate guitar playing and produce the requested song. Techniques like Hybrid Transformer Demucs, a neural network architecture, are employed for accurate simulation of guitar techniques and sounds. Mechanical modelling is done using solidworks , simulink and matlab . The following drive contains videos and photos of working model<br> https://drive.google.com/drive/folders/1-AXTeZeXk4DB-Hqf5mk1bRFiL2Rd5tKv?usp=sharing
 
 ## Conclusion
 Creating a fully automated guitar-playing bot is a complex task that requires expertise in audio processing, music theory, and engineering. By leveraging techniques such as audio processing, de-noising, tablature generation, and hybrid transformer models, the Catch-A-Waveform project aims to provide guitar enthusiasts with a seamless and enjoyable guitar-playing experience.
@@ -39,4 +39,4 @@ https://escholarship.org/uc/item/6bw2065v <br>
 https://musicinformationretrieval.com/ <br>
 https://github.com/facebookresearch/demucs <br>
 https://github.com/timsainb/noisereduce <br>
-https://github.com/GuitarsAI/BasicAutoTranscriptionRepo <br>
+https://github.com/GuitarsAI/BasicAutoTranscriptionRepo 
