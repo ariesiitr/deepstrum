@@ -1,0 +1,3341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/13/23||00:12:05" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="final_guitar_mechanism" uid="final_guitar_mechanism" version="1360">
+<AssemblyFile name="final_guitar_mechanism.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="base-1" uid="base-1" grounded="true" entityUid="base*:*Default">
+<Transform>
+<Rotation>3.4914813388431334e-15 1 -6.9829626776862667e-15 1 -3.4914813388431334e-15 0 0 -6.9829626776862667e-15 -1</Rotation>
+<Translation>0.030439911441302481 0.1466648825974636 0.30935976804301074</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_base_assembly-3" uid="rack_base_assembly-3" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>-1 3.4914813388431334e-15 -3.4914813388431211e-15 -3.4914813388431334e-15 -3.4914813388431334e-15 1 3.4914813388431211e-15 1 3.4914813388431456e-15</Rotation>
+<Translation>1.0767068885963167 0.81140678104172015 0.33070011718774756</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.048905332177412442 0.02384782289828058 0.071431389267789247</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573493 0.60273714429575087 0 -0.60273714429575087 -0.79793980655573493 0 0 0 1</Rotation>
+<Translation>-0.016901579533551425 0.078810048889921158 0.071431389267789247</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="rack_base_assembly-8" uid="rack_base_assembly-8" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>1 6.9829626776862667e-15 -6.9829626776862667e-15 -6.9829626776862667e-15 0 -1 -6.9829626776862667e-15 1 0</Rotation>
+<Translation>0.78655883064831333 0.85976955957728896 0.33070011718774128</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.048905332177412331 0.02384782289828058 0.071431389267789025</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573471 0.60273714429575065 0 -0.60273714429575065 -0.79793980655573471 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.016901579533551314 0.078810048889921214 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="rack_base_assembly-9" uid="rack_base_assembly-9" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>1 6.9829626776862667e-15 -6.9829626776862667e-15 -6.9829626776862667e-15 0 -1 -6.9829626776862667e-15 1 0</Rotation>
+<Translation>0.8565588306483134 0.85976955957728851 0.33070011718774128</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.048905332177412331 0.02384782289828058 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573471 0.60273714429575065 0 -0.60273714429575065 -0.79793980655573471 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.016901579533551314 0.078810048889921214 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="rack_base_assembly-5" uid="rack_base_assembly-5" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>-1 3.4914813388431334e-15 -3.4914813388431211e-15 -3.4914813388431334e-15 -3.4914813388431334e-15 1 3.4914813388431211e-15 1 3.4914813388431456e-15</Rotation>
+<Translation>0.80948032609631815 0.77790678104171784 0.33070011718774661</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.04890533217741222 0.02384782289828058 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573493 0.60273714429575087 0 -0.60273714429575087 -0.79793980655573493 0 0 0 1</Rotation>
+<Translation>-0.016901579533551314 0.078810048889921214 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="rack_base_assembly-4" uid="rack_base_assembly-4" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>-1 6.9829626776862659e-15 0 0 0 1 6.9829626776862699e-15 1 0</Rotation>
+<Translation>0.88057407609632354 0.84790678104171491 0.33070011718774112</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.04890533217741222 0.023847822898280635 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573493 0.60273714429575087 0 -0.60273714429575087 -0.79793980655573493 0 0 0 1</Rotation>
+<Translation>-0.016901579533551314 0.078810048889921158 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="rack_base_assembly-10" uid="rack_base_assembly-10" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>1 6.9829626776862667e-15 -6.9829626776862667e-15 -6.9829626776862667e-15 0 -1 -6.9829626776862667e-15 1 0</Rotation>
+<Translation>0.98575414314831233 0.88926955957728904 0.33070011718774112</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.048905332177412331 0.02384782289828058 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573471 0.60273714429575065 0 -0.60273714429575065 -0.79793980655573471 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.016901579533551203 0.078810048889921214 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="rack_base_assembly-11" uid="rack_base_assembly-11" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>1 6.9829626776862667e-15 -6.9829626776862667e-15 -6.9829626776862667e-15 0 -1 -6.9829626776862667e-15 1 0</Rotation>
+<Translation>0.85572289314831407 0.8062695595772873 0.33070011718774128</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.048905332177412442 0.02384782289828058 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573471 0.60273714429575065 0 -0.60273714429575065 -0.79793980655573471 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.016901579533551203 0.078810048889921214 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="guitar-1" uid="guitar-1" entityUid="guitar*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.91237114087231364 0.9373381703124829 0.40535976804300916</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_base_assembly-1" uid="rack_base_assembly-1" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 -1.265814980524889e-16 0.99999999999999989 0 0.99999999999999989 1.265814980524889e-16</Rotation>
+<Translation>1.0067068885963186 0.8114067810417176 0.33070011718774805</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.048905332177412331 0.023847822898280635 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573471 0.60273714429575065 0 -0.60273714429575054 -0.79793980655573471 0 0 0 0.99999999999999978</Rotation>
+<Translation>-0.016901579533551203 0.078810048889921158 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="rack_base_assembly-6" uid="rack_base_assembly-6" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>-1 3.4914813388431334e-15 -3.4914813388431211e-15 -3.4914813388431334e-15 -3.4914813388431334e-15 1 3.4914813388431211e-15 1 3.4914813388431456e-15</Rotation>
+<Translation>0.87948032609631688 0.77790678104171951 0.33070011718774689</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.04890533217741222 0.023847822898280635 0.071431389267789247</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573493 0.60273714429575087 0 -0.60273714429575087 -0.79793980655573493 0 0 0 1</Rotation>
+<Translation>-0.016901579533551314 0.078810048889921214 0.071431389267789247</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="rack_base_assembly-2" uid="rack_base_assembly-2" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>-1 3.4914813388431334e-15 -3.4914813388431211e-15 -3.4914813388431334e-15 -3.4914813388431334e-15 1 3.4914813388431211e-15 1 3.4914813388431456e-15</Rotation>
+<Translation>0.81057407609631937 0.84790678104171646 0.33070011718774689</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.048905332177412331 0.02384782289828058 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573493 0.60273714429575087 0 -0.60273714429575087 -0.79793980655573493 0 0 0 1</Rotation>
+<Translation>-0.016901579533551203 0.078810048889921158 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="motor base-5" uid="motor base-5" entityUid="motor base*:*Default">
+<Transform>
+<Rotation>0.99991044473519364 0.013382918570587187 0 0 0 -0.99999999999999989 -0.013382918570587187 0.99991044473519364 0</Rotation>
+<Translation>1.003363177263022 0.74883817030950661 0.31847042741155773</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_base_assembly-13" uid="rack_base_assembly-13" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>1 6.9829626776862667e-15 -6.9829626776862667e-15 -6.9829626776862667e-15 0 -1 -6.9829626776862667e-15 1 0</Rotation>
+<Translation>0.98664476814831203 0.83226955957728888 0.33070011718774112</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.04890533217741222 0.02384782289828058 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573471 0.60273714429575065 0 -0.60273714429575065 -0.79793980655573471 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.016901579533551314 0.078810048889921214 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="motor base-8" uid="motor base-8" entityUid="motor base*:*Default">
+<Transform>
+<Rotation>0.99991044473520108 0.013382918570047714 1.9613072956978094e-16 1.9768396634468253e-16 -1.1473828574165631e-16 -0.99999999999999989 -0.013382918570047714 0.99991044473520108 -1.1737359874828902e-16</Rotation>
+<Translation>0.82223036476288203 0.77783817030950764 0.31847042741198334</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_supporter-1" uid="servo_supporter-1" entityUid="servo_supporter*:*Default">
+<Transform>
+<Rotation>1 7.0696988514851071e-15 -6.8962265038874271e-15 -6.8962265038874271e-15 0 -1 -7.0696988514851071e-15 1 0</Rotation>
+<Translation>0.93237114087231632 0.44033817030955819 0.30935976804300941</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_assembly-1" uid="servo_assembly-1" entityUid="servo_assembly">
+<Transform>
+<Rotation>-1 -3.4914813388431314e-15 -2.5232341468753121e-16 2.5232341468754438e-16 0 -1 3.4914813388431361e-15 -1 0</Rotation>
+<Translation>0.92690135831624698 0.43107650707144479 0.44707457179581284</Translation>
+</Transform>
+<Instance name="servo_motor_plug-1" uid="servo_motor_plug-1" entityUid="servo_motor_plug*:*Default">
+<Transform>
+<Rotation>-0.99869485971784 0.051074231988000013 0 -0.051074231988000013 -0.99869485971784 0 0 0 1</Rotation>
+<Translation>0.018509473716116442 0.024214803782809768 0.046738336796262936</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_motor-1" uid="servo_motor-1" grounded="true" entityUid="servo_motor*:*Default">
+<Transform>
+<Rotation>-3.4914813388431381e-15 -1 0 1 -3.4914813388431286e-15 0 0 0 1</Rotation>
+<Translation>0.02450947375891821 0.0077148037527904889 0.017738336761880191</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_shaft-1" uid="servo_shaft-1" entityUid="servo_shaft*:*Default">
+<Transform>
+<Rotation>0.76882979421323439 0.6394534756571707 0 -0.6394534756571707 0.76882979421323439 0 0 0 1</Rotation>
+<Translation>0.018509473758918205 0.024214803752790504 0.029738336761880202</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="rack_base_assembly-12" uid="rack_base_assembly-12" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>1 6.9829626776862667e-15 -6.9829626776862667e-15 -6.9829626776862667e-15 0 -1 -6.9829626776862667e-15 1 0</Rotation>
+<Translation>0.78572289314831401 0.80626955957728774 0.33070011718774128</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.048905332177412442 0.02384782289828058 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573471 0.60273714429575065 0 -0.60273714429575065 -0.79793980655573471 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.016901579533551203 0.078810048889921214 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="frets_assembly-4" uid="frets_assembly-4" entityUid="frets_assembly">
+<Transform>
+<Rotation>0.98617658096927818 -0.16569777049720699 1.5859297104985789e-14 1.3757638502003721e-14 -1.3831424514592867e-14 -1 0.16569777049720699 0.98617658096927818 -1.1360616910647294e-14</Rotation>
+<Translation>0.83929964685648617 1.1671643160304128 0.41257294826754454</Translation>
+</Transform>
+<Instance name="shaft-2" uid="shaft-2" entityUid="shaft*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.011647996466751076 0.04633718546398613 0.20482614572089719</Translation>
+</Transform>
+</Instance>
+<Instance name="solenoid body-1" uid="solenoid body-1" entityUid="solenoid body*:*Default">
+<Transform>
+<Rotation>0.16569777049720624 -0.98617658096927829 -1.5985344324921885e-14 0.98617658096927829 0.16569777049720624 9.4242205255098966e-16 1.7193413576549404e-15 -1.5920529444943226e-14 1</Rotation>
+<Translation>0.083118043841449385 0.00054760287029809174 0.24582614632058419</Translation>
+</Transform>
+</Instance>
+<Instance name="rackandpinion-1" uid="rackandpinion-1" entityUid="rackandpinion">
+<Transform>
+<Rotation>-0.041929025392970096 0.99912059173535006 -7.3567076978763778e-15 -0.99912059173535006 -0.041929025392970096 6.7312747768001941e-15 6.4168956542569275e-15 7.6324739393697751e-15 1</Rotation>
+<Translation>-0.069900824527028504 0.069419167617127853 0.19809267547856158</Translation>
+</Transform>
+<Instance name="rack-1" uid="rack-1" entityUid="rack*:*Default">
+<Transform>
+<Rotation>0.12420263160298435 -0.99225687516030514 -6.8331262349699047e-15 0.99225687516030514 0.12420263160298435 -6.7537623416311718e-15 7.5501593771414297e-15 -5.9413814294353713e-15 1</Rotation>
+<Translation>0.03566655916589101 -0.0016247889943351579 0.046733470243257136</Translation>
+</Transform>
+</Instance>
+<Instance name="gear_pinion-1" uid="gear_pinion-1" entityUid="gear_pinion*:*Default">
+<Transform>
+<Rotation>0.89025031406072408 0.4554715998992494 -6.5180787445797886e-15 -0.4554715998992494 0.89025031406072408 -3.5659319957680417e-15 4.1785408981902932e-15 6.1433718332147328e-15 0.99999999999999989</Rotation>
+<Translation>0.019642421034348934 0.082444911299683232 0.046733470249753939</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="solenoid_shaft-1" uid="solenoid_shaft-1" entityUid="solenoid_shaft*:*Default">
+<Transform>
+<Rotation>-0.60168529909145951 -0.78135718446138325 -0.16569777049737536 0.10109539663019927 0.13128393629071139 -0.98617658096924976 0.7923096122333767 -0.61011923290664771 -1.4985307350827754e-15</Rotation>
+<Translation>0.080155640448958065 0.010061091430273006 0.24982614571388295</Translation>
+</Transform>
+</Instance>
+<Instance name="motor casing-1" uid="motor casing-1" entityUid="motor casing*:*Default">
+<Transform>
+<Rotation>-0.13692369438904889 0.99058159780749744 -1.3958610550595655e-14 -0.99058159780749744 -0.13692369438904889 1.3898750133764614e-14 1.1856581589906202e-14 1.573021095808698e-14 1</Rotation>
+<Translation>0.011647996466730315 0.046337185463970254 0.20482614572090574</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="frets_assembly-12" uid="frets_assembly-12" entityUid="frets_assembly">
+<Transform>
+<Rotation>-0.98617658096927796 0.16569777049720674 -8.8840799380235262e-15 -6.8983533517979512e-15 1.2559525749711584e-14 0.99999999999999967 0.16569777049720674 0.98617658096927796 -1.1242868391951321e-14</Rotation>
+<Translation>1.026012947388186 0.51301202458062001 0.41257294826754437</Translation>
+</Transform>
+<Instance name="rackandpinion-1" uid="rackandpinion-1" entityUid="rackandpinion">
+<Transform>
+<Rotation>-0.041929025392970075 0.99912059173534995 -7.3567076978763715e-15 -0.99912059173534995 -0.041929025392970075 6.731274776800191e-15 6.4168956542569244e-15 7.6324739393697562e-15 1.0000000000000002</Rotation>
+<Translation>-0.069900824527028615 0.069419167617127853 0.19809267547856158</Translation>
+</Transform>
+<Instance name="rack-1" uid="rack-1" entityUid="rack*:*Default">
+<Transform>
+<Rotation>0.12420263160298435 -0.99225687516030514 -6.8331262349699434e-15 0.99225687516030514 0.12420263160298435 -6.7537623416314234e-15 7.5501593771411788e-15 -5.9413814294353334e-15 1</Rotation>
+<Translation>0.035192250590364349 -0.0054140480600957108 0.046733470250316045</Translation>
+</Transform>
+</Instance>
+<Instance name="gear_pinion-1" uid="gear_pinion-1" entityUid="gear_pinion*:*Default">
+<Transform>
+<Rotation>0.85698176772149603 0.51534672774059598 -6.0904377096312581e-15 -0.51534672774059598 0.85698176772149603 3.8615434798651081e-16 5.4183974542351066e-15 2.8077599084155789e-15 0.99999999999999978</Rotation>
+<Translation>0.019389353501351514 0.080423150228670304 0.046733470250330811</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="solenoid body-1" uid="solenoid body-1" entityUid="solenoid body*:*Default">
+<Transform>
+<Rotation>0.16569777049720538 -0.98617658096927818 -1.5985344324920001e-14 0.98617658096927818 0.16569777049720538 9.42422052550895e-16 1.7193413576547084e-15 -1.5920529444941348e-14 0.99999999999999989</Rotation>
+<Translation>0.079351995645651763 0.0011803761522173328 0.24582614572878791</Translation>
+</Transform>
+</Instance>
+<Instance name="solenoid_shaft-1" uid="solenoid_shaft-1" entityUid="solenoid_shaft*:*Default">
+<Transform>
+<Rotation>-0.72181577294253974 0.67195702153011139 -0.16569777049720769 0.12127976530201601 -0.11290247860890049 -0.98617658096927785 -0.68137596703996828 -0.73193359776713895 -1.5681900222830336e-15</Rotation>
+<Translation>0.074853704376909413 0.0015527836390347716 0.2498261457288703</Translation>
+</Transform>
+</Instance>
+<Instance name="motor casing-1" uid="motor casing-1" entityUid="motor casing*:*Default">
+<Transform>
+<Rotation>-0.13692369438904883 0.99058159780749722 -1.3958610550595553e-14 -0.99058159780749722 -0.13692369438904883 1.3898750133764604e-14 1.185658158990621e-14 1.573021095808687e-14 0.99999999999999978</Rotation>
+<Translation>0.0096386286352040385 0.046674800254669191 0.2048261457248951</Translation>
+</Transform>
+</Instance>
+<Instance name="shaft-2" uid="shaft-2" entityUid="shaft*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.009638628635206814 0.046674800254666526 0.20482614572489555</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="servo_assembly-2" uid="servo_assembly-2" entityUid="servo_assembly">
+<Transform>
+<Rotation>-1 6.9829626776862667e-15 0 0 3.4914813388431334e-15 -1 -6.9829626776862667e-15 -1 -3.4914813388431334e-15</Rotation>
+<Translation>0.94586022013227933 0.43107650707144329 0.44707457179582438</Translation>
+</Transform>
+<Instance name="servo_shaft-1" uid="servo_shaft-1" entityUid="servo_shaft*:*Default">
+<Transform>
+<Rotation>0.76882979421323439 0.6394534756571707 0 -0.6394534756571707 0.76882979421323439 0 0 0 1</Rotation>
+<Translation>0.018509473758918094 0.024214803752790504 0.029738336761880202</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_motor-1" uid="servo_motor-1" grounded="true" entityUid="servo_motor*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15 0 0 0 1</Rotation>
+<Translation>0.02450947375891821 0.0077148037527905444 0.017738336761880191</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_motor_plug-1" uid="servo_motor_plug-1" entityUid="servo_motor_plug*:*Default">
+<Transform>
+<Rotation>-0.99002709114873477 0.14087710527823541 0 -0.14087710527823541 -0.99002709114873477 -3.4302489988857622e-15 -4.8324354934658187e-16 -3.3960394382827318e-15 1</Rotation>
+<Translation>0.018509473757531869 0.024214803754257053 0.04673833676332767</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="servo_assembly-3" uid="servo_assembly-3" entityUid="servo_assembly">
+<Transform>
+<Rotation>-1 6.9829626776862667e-15 0 0 3.4914813388431334e-15 -1 -6.9829626776862667e-15 -1 -3.4914813388431334e-15</Rotation>
+<Translation>0.96558921347351423 0.43107650707144329 0.44707457179582472</Translation>
+</Transform>
+<Instance name="servo_motor-1" uid="servo_motor-1" grounded="true" entityUid="servo_motor*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15 0 0 0 1</Rotation>
+<Translation>0.02450947375891821 0.0077148037527904889 0.017738336761880191</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_motor_plug-1" uid="servo_motor_plug-1" entityUid="servo_motor_plug*:*Default">
+<Transform>
+<Rotation>-0.99987202988782053 -0.015997620073287658 0 0.015997620073287658 -0.99987202988782053 -3.4302489988857689e-15 0 -3.4298100295365781e-15 0.99999999999999989</Rotation>
+<Translation>0.018509479794269978 0.024214791947071657 0.046738324956142108</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_shaft-1" uid="servo_shaft-1" entityUid="servo_shaft*:*Default">
+<Transform>
+<Rotation>0.76882979421323439 0.6394534756571707 0 -0.6394534756571707 0.76882979421323439 0 0 0 1</Rotation>
+<Translation>0.018509473758918094 0.024214803752790448 0.029738336761880202</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="servo_assembly-4" uid="servo_assembly-4" entityUid="servo_assembly">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>0.9368199201497609 0.39959983354767975 0.447074571795814</Translation>
+</Transform>
+<Instance name="servo_motor_plug-1" uid="servo_motor_plug-1" entityUid="servo_motor_plug*:*Default">
+<Transform>
+<Rotation>-0.98624759423175234 -0.16527456813460711 0 0.16527456813460711 -0.98624759423175234 1.0413211676572039e-14 -1.7210390627397283e-15 1.0270004964245161e-14 0.99999999999999989</Rotation>
+<Translation>0.018509473760021766 0.024214803754612602 0.046738336762449928</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_shaft-1" uid="servo_shaft-1" entityUid="servo_shaft*:*Default">
+<Transform>
+<Rotation>0.76882979421323439 0.6394534756571707 0 -0.6394534756571707 0.76882979421323439 0 0 0 1</Rotation>
+<Translation>0.018509473758918205 0.024214803752790504 0.029738336761880257</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_motor-1" uid="servo_motor-1" grounded="true" entityUid="servo_motor*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15 0 0 0 1</Rotation>
+<Translation>0.02450947375891821 0.0077148037527905444 0.017738336761880247</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="frets_assembly-8" uid="frets_assembly-8" entityUid="frets_assembly">
+<Transform>
+<Rotation>0.98617658096927807 -0.16569777049720708 8.9519360875018361e-15 6.9653640836698071e-15 -1.25702183198476e-14 -1 0.16569777049720708 0.98617658096927807 -1.1242309625339246e-14</Rotation>
+<Translation>0.83929964685648051 0.98266431603041227 0.41257294826754437</Translation>
+</Transform>
+<Instance name="shaft-2" uid="shaft-2" entityUid="shaft*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.011647996466731314 0.046337185463981467 0.20482614572090541</Translation>
+</Transform>
+</Instance>
+<Instance name="solenoid body-1" uid="solenoid body-1" entityUid="solenoid body*:*Default">
+<Transform>
+<Rotation>0.16569777049720624 -0.98617658096927818 -1.5985344324938915e-14 0.98617658096927818 0.16569777049720624 9.4242205255162233e-16 1.7193413576572028e-15 -1.5920529444960603e-14 0.99999999999999989</Rotation>
+<Translation>0.10471597551940381 -0.003081288527646886 0.24582614572100769</Translation>
+</Transform>
+</Instance>
+<Instance name="rackandpinion-1" uid="rackandpinion-1" entityUid="rackandpinion">
+<Transform>
+<Rotation>-0.041929025392970068 0.99912059173534984 -7.3567076978763762e-15 -0.99912059173534984 -0.041929025392970068 6.7312747768001941e-15 6.4168956542569244e-15 7.632473939370007e-15 0.99999999999999989</Rotation>
+<Translation>-0.069900824527028393 0.069419167617127742 0.19809267547856158</Translation>
+</Transform>
+<Instance name="gear_pinion-1" uid="gear_pinion-1" entityUid="gear_pinion*:*Default">
+<Transform>
+<Rotation>0.93253300417278462 -0.36108474923275419 -5.5858055192490273e-15 0.36108474923275419 0.93253300417278462 3.2966593171353797e-15 4.0185745987565652e-15 -5.091192801923426e-15 0.99999999999999978</Rotation>
+<Translation>0.019642420316630105 0.082444911270992405 0.046733470242344199</Translation>
+</Transform>
+</Instance>
+<Instance name="rack-1" uid="rack-1" entityUid="rack*:*Default">
+<Transform>
+<Rotation>0.12420263160298434 -0.99225687516030503 -6.8331262349697698e-15 0.99225687516030503 0.12420263160298434 -6.7537623416313627e-15 7.5501593771411189e-15 -5.941381429435253e-15 0.99999999999999978</Rotation>
+<Translation>0.038386680547171814 0.020106304796547625 0.046733470063015647</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="solenoid_shaft-1" uid="solenoid_shaft-1" entityUid="solenoid_shaft*:*Default">
+<Transform>
+<Rotation>-0.98065325973434925 0.10422779391625688 -0.16569777049720694 0.16476973992739982 -0.017512394239569164 -0.98617658096927796 -0.10568877412786946 -0.99439925735257262 -1.7303580790370497e-15</Rotation>
+<Translation>0.10178837061370183 0.0066393083305066325 0.24982614572088946</Translation>
+</Transform>
+</Instance>
+<Instance name="motor casing-1" uid="motor casing-1" entityUid="motor casing*:*Default">
+<Transform>
+<Rotation>-0.13692369438904889 0.99058159780749733 -1.3958610550597012e-14 -0.99058159780749733 -0.13692369438904889 1.3898750133764648e-14 1.1856581589906027e-14 1.5730210958088567e-14 1</Rotation>
+<Translation>0.011647996466742194 0.046337185463970476 0.20482614572091362</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="rack_base_assembly-15" uid="rack_base_assembly-15" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>1 6.9829626776862667e-15 -6.9829626776862667e-15 -6.9829626776862667e-15 0 -1 -6.9829626776862667e-15 1 0</Rotation>
+<Translation>1.0566447681483124 0.83226955957728843 0.33070011718774112</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.04890533217741222 0.02384782289828058 0.071431389267789025</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573471 0.60273714429575065 0 -0.60273714429575065 -0.79793980655573471 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.016901579533551425 0.078810048889921214 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="frets_assembly-6" uid="frets_assembly-6" entityUid="frets_assembly">
+<Transform>
+<Rotation>0.98617658096927019 -0.16569777049725382 1.9379349619066634e-14 1.6670793306019282e-14 -1.7737134698139551e-14 -1 0.16569777049725382 0.98617658096927019 -1.4729633569574588e-14</Rotation>
+<Translation>0.81895973872875849 1.0971643160304199 0.412572948267587</Translation>
+</Transform>
+<Instance name="solenoid_shaft-1" uid="solenoid_shaft-1" entityUid="solenoid_shaft*:*Default">
+<Transform>
+<Rotation>-0.97240448458188178 0.16423692403745371 -0.1656977704972537 0.16338377753645922 -0.027595151488574426 -0.98617658096927008 -0.16653906329435661 -0.98603485759735598 -1.5300261058115439e-15</Rotation>
+<Translation>0.10326984819459284 0.0055389444944079491 0.24982614572091466</Translation>
+</Transform>
+</Instance>
+<Instance name="shaft-2" uid="shaft-2" entityUid="shaft*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.031706737521387751 0.042966908035055096 0.2048261457213536</Translation>
+</Transform>
+</Instance>
+<Instance name="motor casing-1" uid="motor casing-1" entityUid="motor casing*:*Default">
+<Transform>
+<Rotation>-0.13692369438904886 0.99058159780749733 -1.3958610550595409e-14 -0.99058159780749733 -0.13692369438904886 1.3898750133764011e-14 1.1856581589905352e-14 1.5730210958086529e-14 1</Rotation>
+<Translation>0.031706737521384531 0.04296690803504577 0.20482614572091162</Translation>
+</Transform>
+</Instance>
+<Instance name="rackandpinion-1" uid="rackandpinion-1" entityUid="rackandpinion">
+<Transform>
+<Rotation>-0.041929025392970068 0.99912059173534984 -7.3567076978763399e-15 -0.99912059173534984 -0.041929025392970068 6.7312747768000419e-15 6.4168956542567777e-15 7.6324739393697199e-15 0.99999999999999989</Rotation>
+<Translation>-0.069900824527028393 0.069419167617127853 0.19809267547856169</Translation>
+</Transform>
+<Instance name="rack-1" uid="rack-1" entityUid="rack*:*Default">
+<Transform>
+<Rotation>0.12420263160298436 -0.99225687516030514 -6.8331262349635946e-15 0.99225687516030514 0.12420263160298436 -6.7537623416297313e-15 7.5501593771387334e-15 -5.9413814294293302e-15 1</Rotation>
+<Translation>0.03859078593217008 0.021736906914499809 0.046733470242349973</Translation>
+</Transform>
+</Instance>
+<Instance name="gear_pinion-1" uid="gear_pinion-1" entityUid="gear_pinion*:*Default">
+<Transform>
+<Rotation>0.93948646229425137 0.34258602885382328 -1.0660866056732894e-14 -0.34258602885382328 0.93948646229425137 -9.7162236978767715e-15 6.6870968445217128e-15 1.2780524395296364e-14 1</Rotation>
+<Translation>0.022168691197144097 0.1026273249823173 0.046733470242350528</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="solenoid body-1" uid="solenoid body-1" entityUid="solenoid body*:*Default">
+<Transform>
+<Rotation>0.16569777049720624 -0.98617658096927818 -1.5985344324918496e-14 0.98617658096927818 0.16569777049720624 9.4242205254419757e-16 1.7193413576613649e-15 -1.5920529444938628e-14 0.99999999999999989</Rotation>
+<Translation>0.10633658550906799 -0.0033535835699267103 0.24582614572091299</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="frets_assembly-7" uid="frets_assembly-7" entityUid="frets_assembly">
+<Transform>
+<Rotation>0.98617658096927807 -0.16569777049720699 8.9731544944506367e-15 6.9977718316553534e-15 -1.2505393336843851e-14 -1 0.16569777049720699 0.98617658096927807 -1.1173010853651202e-14</Rotation>
+<Translation>0.83929964685649128 1.0361643160304124 0.41257294826754454</Translation>
+</Transform>
+<Instance name="solenoid_shaft-1" uid="solenoid_shaft-1" entityUid="solenoid_shaft*:*Default">
+<Transform>
+<Rotation>-0.97224245990410818 0.16519336552011923 -0.16569777049720702 0.16335655408739611 -0.027755853156347637 -0.98617658096927807 -0.16750891139369409 -0.9858705617897815 -1.7173762412170469e-15</Rotation>
+<Translation>0.083248294591846128 0.011454827045359661 0.24982614572133843</Translation>
+</Transform>
+</Instance>
+<Instance name="solenoid body-1" uid="solenoid body-1" entityUid="solenoid body*:*Default">
+<Transform>
+<Rotation>0.16569777049720624 -0.98617658096927818 -1.5985344324919307e-14 0.98617658096927818 0.16569777049720624 9.4242205255037435e-16 1.7193413576551376e-15 -1.592052944494054e-14 0.99999999999999989</Rotation>
+<Translation>0.085898040509240436 8.0508664586809164e-05 0.24582614572097206</Translation>
+</Transform>
+</Instance>
+<Instance name="motor casing-1" uid="motor casing-1" entityUid="motor casing*:*Default">
+<Transform>
+<Rotation>-0.13692369438904886 0.99058159780749744 -1.3958610550595501e-14 -0.99058159780749744 -0.13692369438904886 1.3898750133764557e-14 1.185658158990615e-14 1.5730210958086775e-14 1</Rotation>
+<Translation>0.011647996466746191 0.046337185463970698 0.20482614572091118</Translation>
+</Transform>
+</Instance>
+<Instance name="shaft-2" uid="shaft-2" entityUid="shaft*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.011647996466714217 0.046337185463984798 0.20482614572090285</Translation>
+</Transform>
+</Instance>
+<Instance name="rackandpinion-1" uid="rackandpinion-1" entityUid="rackandpinion">
+<Transform>
+<Rotation>-0.041929025392970082 0.99912059173534995 -7.3567076978763762e-15 -0.99912059173534995 -0.041929025392970082 6.7312747768001957e-15 6.4168956542569181e-15 7.6324739393697483e-15 1</Rotation>
+<Translation>-0.069900824527028393 0.069419167617127742 0.19809267547856169</Translation>
+</Transform>
+<Instance name="rack-1" uid="rack-1" entityUid="rack*:*Default">
+<Transform>
+<Rotation>0.12420263160298435 -0.99225687516030514 -6.8331262349699055e-15 0.99225687516030514 0.12420263160298435 -6.7537623416314242e-15 7.5501593771411788e-15 -5.9413814294353713e-15 1</Rotation>
+<Translation>0.036016680989629679 0.0011723400155392305 0.046733470242349529</Translation>
+</Transform>
+</Instance>
+<Instance name="gear_pinion-1" uid="gear_pinion-1" entityUid="gear_pinion*:*Default">
+<Transform>
+<Rotation>0.93430852127700026 0.35646540795592646 -5.8405657765274092e-15 -0.35646540795592646 0.93430852127700026 1.4729151001406916e-16 5.5093947022939863e-15 1.9443439493053638e-15 0.99999999999999989</Rotation>
+<Translation>0.019642421081069616 0.082444911302413604 0.046733470242342756</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="motor base-6" uid="motor base-6" entityUid="motor base*:*Default">
+<Transform>
+<Rotation>0.99991044473519597 0.013382918570432631 0 0 0 -1 -0.013382918570432631 0.99991044473519597 0</Rotation>
+<Translation>0.82223036476304645 0.89233817030950668 0.31847042741155279</Translation>
+</Transform>
+</Instance>
+<Instance name="motor base-7" uid="motor base-7" entityUid="motor base*:*Default">
+<Transform>
+<Rotation>0.99991044473519719 0.013382918570319318 0 0 0 -0.99999999999999989 -0.013382918570319318 0.99991044473519719 0</Rotation>
+<Translation>1.0033631772628329 0.80583817030950711 0.31847042741217013</Translation>
+</Transform>
+</Instance>
+<Instance name="guitar_support-1" uid="guitar_support-1" entityUid="guitar_support*:*Default">
+<Transform>
+<Rotation>1 6.9829626776862667e-15 -6.9829626776862667e-15 -6.9829626776862667e-15 0 -1 -6.9829626776862667e-15 1 0</Rotation>
+<Translation>0.91737114087231542 0.96733817030929192 0.39035976804300282</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_base_assembly-14" uid="rack_base_assembly-14" entityUid="rack_base_assembly" rigid="true">
+<Transform>
+<Rotation>1 6.9829626776862667e-15 -6.9829626776862667e-15 -6.9829626776862667e-15 0 -1 -6.9829626776862667e-15 1 0</Rotation>
+<Translation>1.0557541431483126 0.88926955957728859 0.33070011718774112</Translation>
+</Transform>
+<Instance name="rack_base-1" uid="rack_base-1" grounded="true" entityUid="rack_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.04890533217741222 0.02384782289828058 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+<Instance name="rack_support-1" uid="rack_support-1" entityUid="rack_support*:*Default">
+<Transform>
+<Rotation>-0.79793980655573471 0.60273714429575065 0 -0.60273714429575065 -0.79793980655573471 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.016901579533551425 0.078810048889921214 0.071431389267789136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="frets_assembly-11" uid="frets_assembly-11" entityUid="frets_assembly">
+<Transform>
+<Rotation>-0.98617658096927796 0.16569777049720691 -8.8840799380235845e-15 -6.8983533517980088e-15 1.2559525749711552e-14 0.99999999999999989 0.16569777049720691 0.98617658096927796 -1.1242868391951283e-14</Rotation>
+<Translation>1.0260129473881694 0.57001202458061995 0.41257294826754448</Translation>
+</Transform>
+<Instance name="solenoid_shaft-1" uid="solenoid_shaft-1" entityUid="solenoid_shaft*:*Default">
+<Transform>
+<Rotation>-0.98197046581068059 0.090984906043861058 -0.16569777049720633 0.1649910574017189 -0.015287319098113535 -0.98617658096927818 -0.092260258253582667 -0.99573492694942789 -1.618497003086361e-15</Rotation>
+<Translation>0.089087830443287608 0.0091028813840567935 0.2498261457288784</Translation>
+</Transform>
+</Instance>
+<Instance name="shaft-2" uid="shaft-2" entityUid="shaft*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.009638628635206814 0.046674800254666415 0.20482614572489555</Translation>
+</Transform>
+</Instance>
+<Instance name="motor casing-1" uid="motor casing-1" entityUid="motor casing*:*Default">
+<Transform>
+<Rotation>-0.13692369438904883 0.99058159780749733 -1.3958610550595564e-14 -0.99058159780749733 -0.13692369438904883 1.3898750133764604e-14 1.185658158990622e-14 1.5730210958086879e-14 0.99999999999999978</Rotation>
+<Translation>0.0096386286352040385 0.046674800254669191 0.2048261457248951</Translation>
+</Transform>
+</Instance>
+<Instance name="rackandpinion-1" uid="rackandpinion-1" entityUid="rackandpinion">
+<Transform>
+<Rotation>-0.041929025392970054 0.99912059173534984 -7.3567076978763715e-15 -0.99912059173534984 -0.041929025392970054 6.7312747768001878e-15 6.4168956542569283e-15 7.6324739393697609e-15 0.99999999999999978</Rotation>
+<Translation>-0.069900824527028504 0.069419167617127742 0.19809267547856158</Translation>
+</Transform>
+<Instance name="gear_pinion-1" uid="gear_pinion-1" entityUid="gear_pinion*:*Default">
+<Transform>
+<Rotation>0.99876863312319852 0.049610659028257301 -6.0948962708841383e-15 -0.049610659028257301 0.99876863312319852 3.0321569894344271e-16 6.1024339481509299e-15 0 0.99999999999999989</Rotation>
+<Translation>0.019389353501482631 0.080423150228574158 0.046733470250132525</Translation>
+</Transform>
+</Instance>
+<Instance name="rack-1" uid="rack-1" entityUid="rack*:*Default">
+<Transform>
+<Rotation>0.12420263160298436 -0.99225687516030525 -6.833126234970128e-15 0.99225687516030525 0.12420263160298436 -6.7537623416315512e-15 7.5501593771413508e-15 -5.941381429435589e-15 0.99999999999999989</Rotation>
+<Translation>0.036780344077932958 0.0072732570403730712 0.046733470250316378</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="solenoid body-1" uid="solenoid body-1" entityUid="solenoid body*:*Default">
+<Transform>
+<Rotation>0.16569777049720533 -0.98617658096927829 -1.5985344324920172e-14 0.98617658096927829 0.16569777049720533 9.4242205255110681e-16 1.7193413576545258e-15 -1.5920529444941547e-14 1</Rotation>
+<Translation>0.09196157275212935 -0.00093828709080034933 0.24582614572874117</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="frets_assembly-13" uid="frets_assembly-13" entityUid="frets_assembly">
+<Transform>
+<Rotation>-0.98617658096926553 0.16569777049728202 -1.5872395662341841e-14 -1.3811276950673771e-14 1.3591237670537623e-14 1 0.16569777049728202 0.98617658096926553 -1.111486249862433e-14</Rotation>
+<Translation>1.0239754183406895 0.63501202458062711 0.41257294826746554</Translation>
+</Transform>
+<Instance name="solenoid body-1" uid="solenoid body-1" entityUid="solenoid body*:*Default">
+<Transform>
+<Rotation>0.16569777049720621 -0.98617658096927807 -1.5985344324920714e-14 0.98617658096927807 0.16569777049720621 9.4242205255080132e-16 1.7193413576549321e-15 -1.5920529444942033e-14 0.99999999999999989</Rotation>
+<Translation>0.099349740035596823 -0.0021796510911833433 0.24582614572545736</Translation>
+</Transform>
+</Instance>
+<Instance name="solenoid_shaft-1" uid="solenoid_shaft-1" entityUid="solenoid_shaft*:*Default">
+<Transform>
+<Rotation>-0.98248418344913147 0.085258888829661331 -0.16569777049744869 0.16507737243823861 -0.014325231471506541 -0.98617658096923744 -0.086453978399960232 -0.99625584546281032 -1.48492329543615e-15</Rotation>
+<Translation>0.096486559871565847 0.0079243796613723827 0.24982614573494433</Translation>
+</Transform>
+</Instance>
+<Instance name="shaft-2" uid="shaft-2" entityUid="shaft*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0076292607936933043 0.04701241498590536 0.20482614572890068</Translation>
+</Transform>
+</Instance>
+<Instance name="motor casing-1" uid="motor casing-1" entityUid="motor casing*:*Default">
+<Transform>
+<Rotation>-0.13692369438904892 0.99058159780749755 -1.3958610550595603e-14 -0.99058159780749755 -0.13692369438904892 1.3898750133764576e-14 1.1856581589906169e-14 1.573021095808692e-14 1</Rotation>
+<Translation>0.0076292607936957468 0.047012414985914797 0.20482614572887914</Translation>
+</Transform>
+</Instance>
+<Instance name="rackandpinion-1" uid="rackandpinion-1" entityUid="rackandpinion">
+<Transform>
+<Rotation>-0.041929025392970068 0.99912059173535006 -7.3567076978763778e-15 -0.99912059173535006 -0.041929025392970068 6.7312747768001965e-15 6.4168956542569283e-15 7.6324739393697688e-15 1</Rotation>
+<Translation>-0.069900824527028615 0.069419167617127853 0.19809267547856158</Translation>
+</Transform>
+<Instance name="rack-1" uid="rack-1" entityUid="rack*:*Default">
+<Transform>
+<Rotation>0.12420263160298435 -0.99225687516030514 -6.8331262349699055e-15 0.99225687516030514 0.12420263160298435 -6.7537623416315078e-15 7.5501593771411773e-15 -5.9413814294353713e-15 1</Rotation>
+<Translation>0.037710837458663105 0.014706983875393709 0.046733470248998765</Translation>
+</Transform>
+</Instance>
+<Instance name="gear_pinion-1" uid="gear_pinion-1" entityUid="gear_pinion*:*Default">
+<Transform>
+<Rotation>0.95021239509798561 -0.31160295923201625 -7.0131084996629769e-15 0.31160295923201625 0.95021239509798561 -6.6978299539192608e-15 8.7510062586208779e-15 4.1790556805624615e-15 0.99999999999999989</Rotation>
+<Translation>0.01913628682988755 0.078401398007927448 0.046733470250333031</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="motor base-2" uid="motor base-2" entityUid="motor base*:*Default">
+<Transform>
+<Rotation>0.99991044473519797 0.013382918570272927 0 0 0 -0.99999999999999989 -0.013382918570272927 0.99991044473519797 0</Rotation>
+<Translation>0.82223036476285238 0.96233817030950652 0.3184704274120741</Translation>
+</Transform>
+</Instance>
+<Instance name="motor base-4" uid="motor base-4" entityUid="motor base*:*Default">
+<Transform>
+<Rotation>0.99991044473519386 0.013382918570587189 0 0 -1.2657016201291105e-16 -1 -0.013382918570587189 0.99991044473519386 -1.265814980524889e-16</Rotation>
+<Translation>1.0033631772629952 0.8708381703095065 0.31847042741164661</Translation>
+</Transform>
+</Instance>
+<Instance name="motor base-3" uid="motor base-3" entityUid="motor base*:*Default">
+<Transform>
+<Rotation>0.99991044473520052 0.013382918570081634 0 0 0 -0.99999999999999989 -0.013382918570081634 0.99991044473520052 0</Rotation>
+<Translation>0.82223036476289979 0.83133817030950674 0.31847042741193632</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_assembly-6" uid="servo_assembly-6" entityUid="servo_assembly">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>0.9187533216780166 0.39959983354767975 0.44707457179581395</Translation>
+</Transform>
+<Instance name="servo_motor-1" uid="servo_motor-1" grounded="true" entityUid="servo_motor*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15 0 0 0 1</Rotation>
+<Translation>0.02450947375891821 0.0077148037527905444 0.017738336761880247</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_shaft-1" uid="servo_shaft-1" entityUid="servo_shaft*:*Default">
+<Transform>
+<Rotation>0.76882979421323439 0.6394534756571707 0 -0.6394534756571707 0.76882979421323439 0 0 0 1</Rotation>
+<Translation>0.018509473758918205 0.024214803752790504 0.029738336761880257</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_motor_plug-1" uid="servo_motor_plug-1" entityUid="servo_motor_plug*:*Default">
+<Transform>
+<Rotation>-0.9976640017429842 -0.068312075258881652 0 0.068312075258881652 -0.9976640017429842 1.0413211676572021e-14 -7.1134809973668667e-16 1.0388886432245613e-14 0.99999999999999989</Rotation>
+<Translation>0.018509473760752404 0.02421480375632673 0.046738336761773136</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="servo_assembly-5" uid="servo_assembly-5" entityUid="servo_assembly">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>0.90001442955793853 0.39959983354767975 0.44707457179581389</Translation>
+</Transform>
+<Instance name="servo_motor-1" uid="servo_motor-1" grounded="true" entityUid="servo_motor*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15 0 0 0 1</Rotation>
+<Translation>0.02450947375891821 0.0077148037527905444 0.017738336761880247</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_shaft-1" uid="servo_shaft-1" entityUid="servo_shaft*:*Default">
+<Transform>
+<Rotation>0.76882979421323439 0.6394534756571707 0 -0.6394534756571707 0.76882979421323439 0 0 0 1</Rotation>
+<Translation>0.018509473758918205 0.024214803752790504 0.029738336761880257</Translation>
+</Transform>
+</Instance>
+<Instance name="servo_motor_plug-1" uid="servo_motor_plug-1" entityUid="servo_motor_plug*:*Default">
+<Transform>
+<Rotation>-0.99313637414108669 -0.11696214070328691 0 0.11696214070328691 -0.99313637414108669 1.0413211676572034e-14 -1.2179515292883608e-15 1.0341739287634373e-14 1</Rotation>
+<Translation>0.018509473760512707 0.024214803755625791 0.046738336761870003</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="support2-1" uid="support2-1" entityUid="support2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.9323711408723111 0.4153381703095646 0.43935976804301596</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>guitar-1</Uid>
+</InstancePath>
+<Position>0 0 -0.09600000000000003</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>1.2637019230769231 1.3252403846153846 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>guitar-1</Uid>
+</InstancePath>
+<Position>0.055000000000000049 0.046000000000000041 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>guitar-1</Uid>
+</InstancePath>
+<Position>0.055000000000000049 0.046000000000000041 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>1.2637019230769231 1.3252403846153846 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident54">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-1</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident55">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-1</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.025421146953405027 -0.045188172043010733 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.98322270337231332 0.88283817030950673 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel12">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack_base_assembly-1</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.98322270337231332 0.88283817030950673 0.30935976804301096</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-3</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953405049 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident58">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-3</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.025421146953405138 -0.045188172043010733 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>1.0532227033723134 0.88283817030950673 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel13">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack_base_assembly-3</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953405049 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.98322270337231332 0.88283817030950673 0.30935976804301096</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident64">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-4</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953405049 -0.045188172043010788 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident65">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-4</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953405049 -0.045188172043010788 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.88208989087231326 0.91933817030950682 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel14">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack_base_assembly-4</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953405049 -0.045188172043010788 0.010000000000000009</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.88208989087231326 0.91933817030950682 0.30935976804301096</Position>
+<Axis>-1 -3.1720657846433014e-15 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident67">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-2</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident68">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-2</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.8120898908723132 0.9193381703095066 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel15">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack_base_assembly-2</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.88208989087231326 0.91933817030950682 0.30935976804301096</Position>
+<Axis>-1 -3.1720657846433014e-15 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident70">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-6</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010788 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident72">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-6</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.88099614087231326 0.84933817030950676 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel16">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack_base_assembly-6</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404827 -0.045188172043010733 -0.010000000000000009</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.91099614087231329 0.84933817030950676 0.30935976804301096</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident77">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-5</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident79">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-5</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010677 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.81099614087231331 0.84933817030950665 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel17">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack_base_assembly-5</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404827 -0.045188172043010733 -0.010000000000000009</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.88099614087231326 0.84933817030950676 0.30935976804301096</Position>
+<Axis>-1 -1.5860328923216533e-15 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident81">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-9</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident82">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-9</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.025421146953405027 -0.045188172043010733 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.88004301587231326 0.78833817030950681 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel18">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack_base_assembly-9</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.88004301587231326 0.78833817030950681 0.30935976804301096</Position>
+<Axis>-1 -1.5860328923216507e-15 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident84">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-8</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0.01000000000000012</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident85">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-8</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.025421146953405027 -0.045188172043010733 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.8100430158723132 0.7883381703095067 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel19">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack_base_assembly-8</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0.01000000000000012</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.88004301587231326 0.78833817030950681 0.30935976804301096</Position>
+<Axis>-1 -1.5860328923216507e-15 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident87">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-11</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953405049 -0.045188172043010788 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident88">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-11</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.025421146953405027 -0.045188172043010733 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.87920707837231327 0.73483817030950693 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel20">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack_base_assembly-11</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953405049 -0.045188172043010788 0.010000000000000009</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.87920707837231327 0.73483817030950693 0.30935976804301096</Position>
+<Axis>-1 -3.1720657846433014e-15 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident90">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-12</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953405049 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident91">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-12</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.025421146953405027 -0.045188172043010733 -1.1102230246251565e-16</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.8092070783723132 0.73483817030950671 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident93">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-10</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident95">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-10</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404827 -0.045188172043010733 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.9842383283723134 0.81783817030950678 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel21">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack_base_assembly-10</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.9842383283723134 0.81783817030950678 0.30935976804301096</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident98">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-14</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404827 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident99">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-14</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953405049 -0.045188172043010733 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>1.0542383283723136 0.81783817030950678 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel22">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack_base_assembly-14</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404827 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.9842383283723134 0.81783817030950678 0.30935976804301096</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident101">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-13</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident102">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-13</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.98512895337231343 0.76083817030950662 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel23">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack_base_assembly-13</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953404938 -0.045188172043010733 0.010000000000000009</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.98512895337231343 0.76083817030950662 0.30935976804301096</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident104">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-15</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953405049 -0.045188172043010733 0.01000000000000012</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident105">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-15</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953405049 -0.045188172043010733 1.1102230246251565e-16</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>1.0551289533723138 0.76083817030950662 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel24">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack_base_assembly-15</Uid>
+<Uid>rack_base-1</Uid>
+</InstancePath>
+<Position>-0.050421146953405049 -0.045188172043010733 0.01000000000000012</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.98512895337231343 0.76083817030950662 0.30935976804301096</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident107">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-2</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121757892 0.02052001192157904 -0.0070000000000000062</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-4</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident108">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-4</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121758003 0.020520011921579151 -0.0070000000000000062</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-4</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-2</Uid>
+</InstancePath>
+<Position>0.010984185224007348 0.074157786056802621 0.06443138926778913</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>frets_assembly-4</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000018 0.010000000000000009</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-4</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000018 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-4</Uid>
+</InstancePath>
+<Position>0.010984185224007237 0.074157786056802621 0.06443138926778913</Position>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident117">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-5</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121757948 0.02052001192157904 -0.0070000000000000062</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-6</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident124">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-6</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121757892 0.020520011921579151 -0.0070000000000000062</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-6</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-6</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 -0.020000000000000018 0.0099999999999998979</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-5</Uid>
+</InstancePath>
+<Position>0.010984185224007348 0.074157786056802621 0.06443138926778913</Position>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-6</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 -0.020000000000000018 0.0099999999999998979</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-6</Uid>
+</InstancePath>
+<Position>0.010984185224007348 0.074157786056802677 0.064431389267789241</Position>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident127">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-8</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121757948 0.02052001192157904 0.0070000000000000062</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-7</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident128">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-9</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121757948 0.02052001192157904 0.0070000000000000062</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-7</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-7</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000018 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-8</Uid>
+</InstancePath>
+<Position>0.010984185224007348 0.074157786056802621 0.06443138926778913</Position>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-7</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000018 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-9</Uid>
+</InstancePath>
+<Position>0.010984185224007348 0.074157786056802621 0.06443138926778913</Position>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident131">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-12</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121757948 0.02052001192157904 0.0070000000000000062</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-8</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0 0.010000000000000009</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident132">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-11</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121757948 0.02052001192157904 0.0070000000000000062</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-8</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0 0.010000000000000009</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-8</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 -0.020000000000000018 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-12</Uid>
+</InstancePath>
+<Position>0.010984185224007348 0.074157786056802621 0.06443138926778913</Position>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-8</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 -0.020000000000000018 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-11</Uid>
+</InstancePath>
+<Position>0.010984185224007348 0.074157786056802621 0.06443138926778913</Position>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident135">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-3</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121758059 0.02052001192157904 0.0069999999999998952</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-13</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident136">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-1</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121757948 0.020520011921578929 0.0070000000000000062</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-13</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-13</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000018 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-3</Uid>
+</InstancePath>
+<Position>0.010984185224007348 0.074157786056802621 0.06443138926778913</Position>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-13</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000018 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-1</Uid>
+</InstancePath>
+<Position>0.010984185224007348 0.074157786056802621 0.06443138926778913</Position>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident139">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-11</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-14</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121757726 0.020520011921578984 -0.0070000000000000062</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident140">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-10</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121757948 0.020520011921579095 -0.0070000000000000062</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-11</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-11</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000018 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-14</Uid>
+</InstancePath>
+<Position>0.010984185224007126 0.074157786056802566 0.06443138926778913</Position>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-11</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000018 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-10</Uid>
+</InstancePath>
+<Position>0.010984185224007348 0.074157786056802566 0.06443138926778913</Position>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident143">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-15</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121757726 0.020520011921579095 -0.0070000000000000062</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-12</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident144">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack_base_assembly-13</Uid>
+<Uid>rack_support-1</Uid>
+</InstancePath>
+<Position>-0.019447070121757948 0.020520011921579095 -0.0070000000000000062</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-12</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-12</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000073 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-15</Uid>
+</InstancePath>
+<Position>0.010984185224007126 0.074157786056802566 0.06443138926778913</Position>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-12</Uid>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 -0.020000000000000073 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rack_base_assembly-13</Uid>
+</InstancePath>
+<Position>0.010984185224007348 0.074157786056802566 0.06443138926778913</Position>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident153">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-4</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor base-2</Uid>
+</InstancePath>
+<Position>0.018979674796747892 0.14199593495934959 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident154">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>motor base-2</Uid>
+</InstancePath>
+<Position>0.019979674796747893 -0.0088440650406504395 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.84208989087231323 0.91933817030950682 0.30935976804301096</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>frets_assembly-4</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor base-2</Uid>
+</InstancePath>
+<Position>0.018979674796747892 0.14199593495934959 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident164">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-6</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor base-6</Uid>
+</InstancePath>
+<Position>0.018979674796747892 0.14199593495934965 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident165">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-7</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor base-3</Uid>
+</InstancePath>
+<Position>0.018979674796748003 0.14199593495934953 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident166">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-8</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor base-8</Uid>
+</InstancePath>
+<Position>0.018979674796748003 0.14199593495934959 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident167">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-13</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor base-4</Uid>
+</InstancePath>
+<Position>0.01897967479674767 0.14199593495934953 0.030999999999999917</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident168">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-11</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor base-7</Uid>
+</InstancePath>
+<Position>0.018979674796748003 0.14199593495934953 0.031000000000000028</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident169">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>frets_assembly-12</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor base-5</Uid>
+</InstancePath>
+<Position>0.018979674796747781 0.14199593495934953 0.031000000000000028</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident170">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>motor base-6</Uid>
+</InstancePath>
+<Position>0.019979674796748004 -0.008844065040650384 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.84208989087231323 0.91933817030950682 0.30935976804301096</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident171">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>motor base-3</Uid>
+</InstancePath>
+<Position>0.019979674796748115 -0.0088440650406504395 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.84208989087231323 0.91933817030950682 0.30935976804301096</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident172">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>motor base-8</Uid>
+</InstancePath>
+<Position>0.019979674796748004 -0.008844065040650384 0.031000000000000028</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.84208989087231323 1.3357136758770016 0.30935976804301096</Position>
+<Axis>1.6118740197359791e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident173">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>motor base-5</Uid>
+</InstancePath>
+<Position>0.019979674796747893 -0.0088440650406504395 0.031000000000000028</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>1.0232227033723131 1.133504104782445 0.30935976804301096</Position>
+<Axis>4.2533477073672374e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident174">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>motor base-4</Uid>
+</InstancePath>
+<Position>0.019979674796748004 -0.008844065040650384 0.031000000000000028</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>1.0232227033723131 1.133504104782445 0.30935976804301096</Position>
+<Axis>4.2533477073672374e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident175">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>motor base-7</Uid>
+</InstancePath>
+<Position>0.019979674796747893 -0.008844065040650384 0.031000000000000028</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>1.0232227033723131 1.133504104782445 0.30935976804301096</Position>
+<Axis>4.2533477073672374e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident176">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>frets_assembly-6</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor base-6</Uid>
+</InstancePath>
+<Position>0.018979674796747892 0.14199593495934965 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident177">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>frets_assembly-7</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor base-3</Uid>
+</InstancePath>
+<Position>0.018979674796748003 0.14199593495934953 0.031000000000000028</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident178">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>frets_assembly-8</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor base-8</Uid>
+</InstancePath>
+<Position>0.018979674796748003 0.14199593495934959 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident179">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>frets_assembly-13</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor base-4</Uid>
+</InstancePath>
+<Position>0.01897967479674767 0.14199593495934953 0.030999999999999917</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident180">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>frets_assembly-11</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor base-7</Uid>
+</InstancePath>
+<Position>0.018979674796748003 0.14199593495934953 0.031000000000000028</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident181">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>frets_assembly-12</Uid>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor base-5</Uid>
+</InstancePath>
+<Position>0.018979674796747781 0.14199593495934953 0.031000000000000028</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident182">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>guitar_support-1</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 -0.081000000000000016 0.030000000000000027</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident183">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>guitar-1</Uid>
+</InstancePath>
+<Position>0 0 -0.015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>guitar_support-1</Uid>
+</InstancePath>
+<Position>0 0 0.030000000000000027</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident212">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_supporter-1</Uid>
+</InstancePath>
+<Position>-0.28999999999999992 0 0.049999999999999989</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident213">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>servo_supporter-1</Uid>
+</InstancePath>
+<Position>-0.22000000000000008 0 0.025000000000000022</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.71237114087231335 0.41533817030956449 0.30935976804301096</Position>
+</ConstraintGeometry>
+</Coincident>
+<Perpendicular name="Perpendicular9">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>servo_supporter-1</Uid>
+</InstancePath>
+<Position>-0.21999999999999997 0 0.050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.93237114087231332 0.41533817030956444 0.30935976804301096</Position>
+<Axis>-1 2.523234146875356e-16 0</Axis>
+</ConstraintGeometry>
+</Perpendicular>
+<Coincident name="Coincident215">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_supporter-1</Uid>
+</InstancePath>
+<Position>-0.21999999999999997 0.17999999999999999 0.050000000000000044</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999989</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident216">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_supporter-1</Uid>
+</InstancePath>
+<Position>-0.21999999999999997 0.020000000000000018 0.050000000000000044</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>-0.22000000000000008 -0.025000000000000022 0.049999999999999989</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident217">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>servo_supporter-1</Uid>
+</InstancePath>
+<Position>-0.21999999999999997 0.17999999999999999 0.050000000000000044</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>-0.22000000000000008 -0.025000000000000022 0.049999999999999989</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident221">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_assembly-1</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.02300000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident222">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>servo_assembly-1</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0 0.0060000000000000053 0.02300000000000002</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.90839188455733189 0.39033817030956458 0.43935976804301602</Position>
+</ConstraintGeometry>
+</Coincident>
+<Perpendicular name="Perpendicular11">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>servo_assembly-1</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0.02200000000000002 0 0.02300000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>-0.22000000000000008 -0.025000000000000022 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Perpendicular>
+<Coincident name="Coincident225">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_assembly-2</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.02300000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident226">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>servo_assembly-2</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0 0.0060000000000000053 0.02300000000000002</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.92735074637336878 0.39033817030956458 0.43935976804301602</Position>
+</ConstraintGeometry>
+</Coincident>
+<Perpendicular name="Perpendicular12">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>servo_assembly-2</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0.021999999999999964 0 0.02300000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>-0.22000000000000008 -0.025000000000000022 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Perpendicular>
+<Coincident name="Coincident228">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_assembly-3</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.02300000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident229">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>servo_assembly-3</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0 0.0060000000000000053 0.02300000000000002</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.94707973971460369 0.39033817030956458 0.43935976804301602</Position>
+</ConstraintGeometry>
+</Coincident>
+<Perpendicular name="Perpendicular13">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>servo_assembly-3</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0.021999999999999964 0 0.02300000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>-0.22000000000000008 -0.025000000000000022 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Perpendicular>
+<Coincident name="Coincident231">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_assembly-4</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.02300000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident232">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>servo_assembly-4</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0 0.0060000000000000053 0.02300000000000002</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.95532939390868066 0.44033817030956462 0.43935976804301596</Position>
+</ConstraintGeometry>
+</Coincident>
+<Perpendicular name="Perpendicular14">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>servo_assembly-4</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0.02200000000000002 0 0.02300000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>0.21999999999999986 0.025000000000000022 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Perpendicular>
+<Perpendicular name="Perpendicular16">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>servo_assembly-5</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0 0.012000000000000011 0.02300000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>0.21999999999999986 0.025000000000000022 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Perpendicular>
+<Coincident name="Coincident238">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_assembly-6</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.02300000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident239">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>servo_assembly-6</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0 0.0060000000000000053 0.02300000000000002</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.93726279543693636 0.44033817030956462 0.43935976804301596</Position>
+</ConstraintGeometry>
+</Coincident>
+<Perpendicular name="Perpendicular17">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>servo_assembly-6</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0.02200000000000002 0 0.02300000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>0.21999999999999986 0.025000000000000022 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Perpendicular>
+<Coincident name="Coincident242">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_assembly-5</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0 0 0.02300000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>support2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident243">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>servo_assembly-5</Uid>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0 0.0060000000000000053 0.02300000000000002</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>final_guitar_mechanism</Uid>
+</InstancePath>
+<Position>0.91852390331685829 0.44033817030956462 0.43935976804301596</Position>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="rack_base_assembly" uid="rack_base_assembly" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="rack_base_assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="servo_assembly" uid="servo_assembly" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="servo_assembly.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0.016500000000000001 0.0060000000000000019 0.012</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo_motor-1</Uid>
+</InstancePath>
+<Position>0.016500000000000001 0.0060000000000000019 0.012</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo_shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0.021000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo_shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0.021000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo_motor_plug-1</Uid>
+</InstancePath>
+<Position>0 0 0.0039999999999999966</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0.021000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo_motor_plug-1</Uid>
+</InstancePath>
+<Position>0 0 0.0039999999999999966</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+<Assembly name="frets_assembly" uid="frets_assembly" version="193">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="frets_assembly.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0.15000000000000002 0 0.0099999999999999811</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>solenoid body-1</Uid>
+</InstancePath>
+<Position>-0.011637554585152844 0.00949781659388646 0.0079999999999999793</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>rackandpinion-1</Uid>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0.15000000000000008 -0.0036099999999999952 0.0049999999999999767</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>solenoid body-1</Uid>
+</InstancePath>
+<Position>0.0033624454148471587 0.0094978165938864462 0.0040000000000000036</Position>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>solenoid body-1</Uid>
+</InstancePath>
+<Position>-0.011637554585152844 0.0044978165938864556 0.0040000000000000036</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>solenoid_shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0.023999999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rackandpinion-1</Uid>
+<Uid>gear_pinion-1</Uid>
+</InstancePath>
+<Position>0 0 0.0099999999999999534</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shaft-2</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999989</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>rackandpinion-1</Uid>
+<Uid>gear_pinion-1</Uid>
+</InstancePath>
+<Position>0 0 0.0099999999999999534</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>shaft-2</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999989</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>shaft-2</Uid>
+</InstancePath>
+<Position>0 0 0.049999999999999989</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0.035000000000000003</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>shaft-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor casing-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+<Assembly name="rackandpinion" uid="rackandpinion" version="149">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="rackandpinion.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gear_pinion-1</Uid>
+</InstancePath>
+<Position>0 0 0.009999999999999995</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 0 0.009999999999999995</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>gear_pinion-1</Uid>
+</InstancePath>
+<Position>0 0 0.009999999999999995</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 -0.019999999999999997 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<UnknownConstraint name="RackPinionMate3">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>rack-1</Uid>
+</InstancePath>
+<Position>0 -0.019999999999999997 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>gear_pinion-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+</Constraints>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="base" uid="base*:*Default" version="136">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>22.923406708853783</Mass>
+<CenterOfMass>0.56370192307692313 0.91589383624299558 0.01</CenterOfMass>
+<Inertia>1.2811479133379018 3.7449205426697469 5.0245402288937253 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gear_pinion" uid="gear_pinion*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="gear_pinion.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.024003310720731252</Mass>
+<CenterOfMass>0 0 0.0049999999999999992</CenterOfMass>
+<Inertia>4.8931837487016185e-06 4.8931837487016287e-06 9.3863123187243913e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="gear_pinion_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="guitar" uid="guitar*:*Default" version="742">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="guitar.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>11.986307726602494</Mass>
+<CenterOfMass>0.032298279127930894 -0.56341865791068424 -0.046248478010576008</CenterOfMass>
+<Inertia>0.29397880843665014 0.12040047147255999 0.39465515346796404 -0.010381779193699399 0.00025814204496462431 0.0027287959485057722</Inertia>
+</MassProperties>
+<GeometryFile name="guitar_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="guitar_support" uid="guitar_support*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="guitar_support.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.082250593824228044</Mass>
+<CenterOfMass>0.015000000000000003 -0.044513646705838232 0.014999999999999999</CenterOfMass>
+<Inertia>5.6441107271928547e-05 1.6545356294536817e-05 6.0648874492831148e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="guitar_support_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor base" uid="motor base*:*Default" version="132">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.27013855693915989</Mass>
+<CenterOfMass>0.020045803243065468 0.064670808956165712 0.015499999999999998</CenterOfMass>
+<Inertia>0.0005341051108188298 0.00010677505905602628 0.00059761297767176719 0 0 -1.1246856612193387e-06</Inertia>
+</MassProperties>
+<GeometryFile name="motor base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor casing" uid="motor casing*:*Default" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor casing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.043295073757284329</Mass>
+<CenterOfMass>0 0 0.017500000000000002</CenterOfMass>
+<Inertia>8.8168613745302986e-06 8.8168613745302986e-06 8.7943118569483775e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motor casing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rack" uid="rack*:*Default" version="109">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="rack.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.027185745068500619</Mass>
+<CenterOfMass>0.075000000000000289 -0.010896633393166115 0.0050000000000000001</CenterOfMass>
+<Inertia>9.9111850355205967e-07 5.1116750229410398e-05 5.1654772981820781e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="rack_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rack_base" uid="rack_base*:*Default" version="195">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="rack_base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.045159512937519054</Mass>
+<CenterOfMass>-0.037921146953405004 7.1650767084830883e-05 0</CenterOfMass>
+<Inertia>3.2648127782937982e-05 3.9547326969136559e-06 3.3523503991676176e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="rack_base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rack_support" uid="rack_support*:*Default" version="109">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="rack_support.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0035515704948832624</Mass>
+<CenterOfMass>-0.019447070121757903 0.020520011921579026 0</CenterOfMass>
+<Inertia>1.3015026042707624e-07 1.3015026042707624e-07 1.4428255135463256e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="rack_support_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="servo_motor" uid="servo_motor*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="servo_motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0059337699232420481</Mass>
+<CenterOfMass>0.010871874806067076 0.0060000000000000001 0.011360227061164081</CenterOfMass>
+<Inertia>3.3391374227492934e-07 5.0167487329834535e-07 3.1321267086990012e-07 0 4.667857065364247e-09 0</Inertia>
+</MassProperties>
+<GeometryFile name="servo_motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="servo_motor_plug" uid="servo_motor_plug*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="servo_motor_plug.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00027426548245743673</Mass>
+<CenterOfMass>0 -0.0031891241246605143 0.0019999999999999996</CenterOfMass>
+<Inertia>5.2454584527755786e-09 1.3148790204786393e-09 5.8289628533677205e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="servo_motor_plug_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="servo_shaft" uid="servo_shaft*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="servo_shaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0002638937829015426</Mass>
+<CenterOfMass>0 0 0.010500000000000002</CenterOfMass>
+<Inertia>9.961990304533233e-09 9.961990304533233e-09 5.2778756580308516e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="servo_shaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="servo_supporter" uid="servo_supporter*:*Default" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="servo_supporter.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.93999999999999828</Mass>
+<CenterOfMass>0 0.13255319148936168 0.025000000000000001</CenterOfMass>
+<Inertia>0.0049250390070921827 0.035511166666666608 0.040044539007092116 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="servo_supporter_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="shaft" uid="shaft*:*Default" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="shaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00098174770424681044</Mass>
+<CenterOfMass>0 0 0.024999999999999998</CenterOfMass>
+<Inertia>2.0606475250597115e-07 2.0606475250597115e-07 3.0679615757712838e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="shaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="solenoid body" uid="solenoid body*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="solenoid body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0010939712479413443</Mass>
+<CenterOfMass>-0.0041375545851528436 0.0044978165938864643 0.0040000000000000001</CenterOfMass>
+<Inertia>1.6280717653934007e-08 2.6852319725867204e-08 3.0452319725867193e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="solenoid body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="solenoid_shaft" uid="solenoid_shaft*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="solenoid_shaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00016964600329384891</Mass>
+<CenterOfMass>0 0 0.012000000000000002</CenterOfMass>
+<Inertia>8.2384340349575412e-09 8.2384340349575412e-09 1.9085175370558011e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="solenoid_shaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="support2" uid="support2*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="support2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.1000000000000001</Mass>
+<CenterOfMass>0 0 0.025000000000000001</CenterOfMass>
+<Inertia>0.00045833333333333343 0.017975833333333344 0.017975833333333344 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="support2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
