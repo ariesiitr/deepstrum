@@ -33,10 +33,10 @@ Please note that this is an overview of the project and additional details and i
 
 ## References
 https://towardsdatascience.com/audio-to-guitar-tab-with-deep-learning-d76e12717f81 <br>
-https://project-archive.inf.ed.ac.uk/msc/20172175/msc_proj.pdf
-https://librosa.org/doc/main/generated/librosa.icqt.html
-https://escholarship.org/uc/item/6bw2065v
-https://musicinformationretrieval.com/
-https://github.com/facebookresearch/demucs 
-https://github.com/timsainb/noisereduce
-https://github.com/GuitarsAI/BasicAutoTranscriptionRepo 
+https://project-archive.inf.ed.ac.uk/msc/20172175/msc_proj.pdf <br>
+https://librosa.org/doc/main/generated/librosa.icqt.html <br>
+https://escholarship.org/uc/item/6bw2065v <br>
+https://musicinformationretrieval.com/ <br>
+https://github.com/facebookresearch/demucs <br>
+https://github.com/timsainb/noisereduce <br>
+https://github.com/GuitarsAI/BasicAutoTranscriptionRepo <br>
