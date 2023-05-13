@@ -1,6 +1,6 @@
-#DeepStrum: An AI powered Guitarist Robot
+# DeepStrum: An AI powered Guitarist Robot
 
-##Introduction
+## Introduction
 The guitar is one of the most interesting and renowned instruments. It has its own fan following and complications when it comes to learning to play this beautiful instrument. We would like to preserve the authenticity of the instrument and help guitar enthusiasts enjoy this without bothering themselves with the tedious job that is to learn playing it. This would also ease the complications of potential guitar learners as guitar tablature can help them with the task of searching for the tablature all over the web just to often be unable to find it.
 
 We, therefore, wish to create a fully automated guitar-playing bot which would only require the user to request a song and then sit back while the robot does the rest. It aims to process the audio for simplification and de-noising to be able to form the tablature next. Finally, it would use this generated tablature to play the requested song.
